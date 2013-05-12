@@ -33,6 +33,7 @@ module.exports = (grunt) ->
 					sassDir: 'app/sass'
 					cssDir: 'app/css'
 					imagesDir: 'app/img'
+					httpPath: 'D:/Github/mini-site'
 
 
 	grunt.registerTask 'default', ['debug']

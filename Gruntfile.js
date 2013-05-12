@@ -39,7 +39,8 @@ module.exports = function(grunt) {
         options: {
           sassDir: 'app/sass',
           cssDir: 'app/css',
-          imagesDir: 'app/img'
+          imagesDir: 'app/img',
+          httpPath: 'D:/Github/mini-site'
         }
       }
     }

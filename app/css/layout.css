@@ -1,0 +1,17 @@
+/* line 1, ../sass/layout.sass */
+body {
+  background: white;
+  font: 12px/14px Arial, Helvetica, sans-serif;
+  color: #777777;
+}
+
+/* line 6, ../sass/layout.sass */
+#conteiner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 10, ../sass/layout.sass */
+#header {
+  overflow: hidden;
+}

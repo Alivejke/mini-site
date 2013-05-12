@@ -1,21 +1,3 @@
-/* line 1, ../sass/layout.sass */
-body {
-  background: white;
-  font: 12px/14px Arial, Helvetica, sans-serif;
-  color: #777777;
-}
-
-/* line 6, ../sass/layout.sass */
-#conteiner {
-  width: 960px;
-  margin: 0 auto;
-}
-
-/* line 10, ../sass/layout.sass */
-#header {
-  overflow: hidden;
-}
-
 /* line 42, sprites/*.png */
 .sprites-sprite, .logo__img {
   background: url('D:/Github/mini-site/app/img/sprites-s3f31e51849.png') no-repeat;
