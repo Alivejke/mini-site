@@ -1,15 +1,17 @@
+@import "base"
 @import "sprites/*.png"
 
 #logo
 	float: left
 	text-decoration: none
 	text-align: right
+	margin-bottom: 20px
 
 .logo__img
 	display: inline-block
 	height: 50px
 	width: 50px
-	margin-right: 15px
+	margin-right: 10px
 	@include sprites-sprite(logo)
 
 .logo__text
@@ -21,9 +23,11 @@
 	line-height: 38px
 	color: #4c483f
 	text-transform: uppercase
+	padding-top: 3px
 	b
 		font-weight: bold
 
 .logo__subtag
 	font: 13px/15px Calibri, Arial, Helvetica, sans-serif
-	color: #8c263e
+	color: $red
+	margin: 0 5px 0 0

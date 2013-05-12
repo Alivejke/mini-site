@@ -1,0 +1,36 @@
+/* line 3, ../sass/menu_main.sass */
+.menu_main {
+  float: right;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+/* line 8, ../sass/menu_main.sass */
+.menu_main__unit {
+  float: left;
+  margin: 0 1px;
+}
+
+/* line 12, ../sass/menu_main.sass */
+.menu_main__item {
+  color: #852432;
+  text-decoration: none;
+  padding: 0 9px;
+  font-size: 14px;
+  line-height: 24px;
+  display: inline-block;
+}
+/* line 19, ../sass/menu_main.sass */
+.menu_main__item:hover {
+  color: #7f7467;
+}
+
+/* line 22, ../sass/menu_main.sass */
+.menu_main__item_state_current {
+  background: #852432;
+  color: white;
+}
+/* line 25, ../sass/menu_main.sass */
+.menu_main__item_state_current:hover {
+  color: white;
+}

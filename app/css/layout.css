@@ -14,4 +14,5 @@ body {
 /* line 10, ../sass/layout.sass */
 #header {
   overflow: hidden;
+  padding-top: 15px;
 }
