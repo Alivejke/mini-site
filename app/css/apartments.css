@@ -1,0 +1,28 @@
+/* line 1, ../sass/apartments.sass */
+.apartments {
+  float: left;
+  width: 295px;
+  margin-right: 20px;
+}
+
+/* line 6, ../sass/apartments.sass */
+.apartments__list_item {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+/* line 10, ../sass/apartments.sass */
+.apartments__list_item_photo {
+  padding: 2px;
+  border: 1px solid #d8d6d4;
+  float: left;
+}
+/* line 14, ../sass/apartments.sass */
+.apartments__list_item_photo img {
+  display: block;
+}
+
+/* line 17, ../sass/apartments.sass */
+.apartments__list_item_descr {
+  margin-left: 130px;
+}

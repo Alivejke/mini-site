@@ -11,4 +11,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFF0E0', endColorstr='#FFF7E1C9');
   border-top: 1px solid #fef6ee;
   border-bottom: 1px solid #ebd0b4;
+  line-height: 26px;
+  font-size: 12px;
+  color: #852432;
 }

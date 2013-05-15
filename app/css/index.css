@@ -1,3 +1,77 @@
+/* line 4, ../sass/global.sass */
+.g-more_info_button {
+  border: 1px solid #e9cfb8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffecd7), color-stop(100%, #f8e2ca));
+  background-image: -webkit-linear-gradient(top, #ffecd7, #f8e2ca);
+  background-image: -moz-linear-gradient(top, #ffecd7, #f8e2ca);
+  background-image: -o-linear-gradient(top, #ffecd7, #f8e2ca);
+  background-image: linear-gradient(top, #ffecd7, #f8e2ca);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFECD7', endColorstr='#FFF8E2CA');
+  text-decoration: none;
+  color: #4f4840;
+  padding: 0 30px;
+  line-height: 30px;
+  font-size: 14px;
+  display: inline-block;
+}
+/* line 15, ../sass/global.sass */
+.g-more_info_button:hover {
+  color: #7f7467;
+}
+
+/* line 18, ../sass/global.sass */
+.g-block_title {
+  width: 100%;
+  border-bottom: 1px solid #4f4840;
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #58524a;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+/* line 28, ../sass/global.sass */
+.apartments__list_item_title {
+  color: #852432;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 33, ../sass/global.sass */
+.apartments__list_item_adress {
+  color: #aaaaaa;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 6px;
+}
+
+/* line 39, ../sass/global.sass */
+.apartments__list_item_cost {
+  font-weight: bold;
+  font-size: 12px;
+  color: #777777;
+  line-height: 24px;
+}
+
+/* line 45, ../sass/global.sass */
+.apartments__list_item_cost__monthly {
+  font-weight: normal;
+}
+
+/* line 48, ../sass/global.sass */
+.apartments__list_item_rooms {
+  font-size: 12px;
+  line-height: 14px;
+  color: #777777;
+}
+
 /* line 1, ../sass/layout.sass */
 body {
   background: white;
@@ -15,6 +89,11 @@ body {
 #header {
   overflow: hidden;
   padding-top: 15px;
+}
+
+/* line 14, ../sass/layout.sass */
+#content {
+  overflow: hidden;
 }
 
 /* line 42, sprites/*.png */
@@ -115,4 +194,121 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFF0E0', endColorstr='#FFF7E1C9');
   border-top: 1px solid #fef6ee;
   border-bottom: 1px solid #ebd0b4;
+  line-height: 26px;
+  font-size: 12px;
+  color: #852432;
+}
+
+/* line 3, ../sass/main_slider.sass */
+#main_slider {
+  overflow: hidden;
+  margin: 1px 0 20px;
+  width: 100%;
+  height: 314px;
+  position: relative;
+}
+
+/* line 10, ../sass/main_slider.sass */
+.main_slider__item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+/* line 18, ../sass/main_slider.sass */
+.main_slider__item__image {
+  width: 630px;
+  overflow: hidden;
+  float: left;
+}
+
+/* line 23, ../sass/main_slider.sass */
+.main_slider__item__description_block {
+  padding: 20px 19px 20px 20px;
+  width: 290px;
+  height: 274px;
+  border-left: 1px solid #4e79bb;
+  float: left;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3c69ac), color-stop(100%, #204782));
+  background-image: -webkit-linear-gradient(top, #3c69ac, #204782);
+  background-image: -moz-linear-gradient(top, #3c69ac, #204782);
+  background-image: -o-linear-gradient(top, #3c69ac, #204782);
+  background-image: linear-gradient(top, #3c69ac, #204782);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF3C69AC', endColorstr='#FF204782');
+}
+
+/* line 32, ../sass/main_slider.sass */
+.main_slider__item__title {
+  margin: 30px 0 20px 0;
+  font-size: 28px;
+  line-height: 30px;
+  color: white;
+}
+
+/* line 38, ../sass/main_slider.sass */
+.main_slider__item__text {
+  margin: 0 0 20px 0;
+  color: #999999;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* line 45, ../sass/main_slider.sass */
+.main_slider__item__description_block .g-more_info_button {
+  margin-top: 30px;
+}
+
+/* line 3, ../sass/about.sass */
+.about {
+  width: 295px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* line 8, ../sass/about.sass */
+.about__title {
+  margin: 0 0 10px;
+  color: #852432;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+/* line 14, ../sass/about.sass */
+.about__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+}
+
+/* line 1, ../sass/apartments.sass */
+.apartments {
+  float: left;
+  width: 295px;
+  margin-right: 20px;
+}
+
+/* line 6, ../sass/apartments.sass */
+.apartments__list_item {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+/* line 10, ../sass/apartments.sass */
+.apartments__list_item_photo {
+  padding: 2px;
+  border: 1px solid #d8d6d4;
+  float: left;
+}
+/* line 14, ../sass/apartments.sass */
+.apartments__list_item_photo img {
+  display: block;
+}
+
+/* line 17, ../sass/apartments.sass */
+.apartments__list_item_descr {
+  margin-left: 130px;
 }

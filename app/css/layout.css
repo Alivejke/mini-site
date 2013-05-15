@@ -16,3 +16,8 @@ body {
   overflow: hidden;
   padding-top: 15px;
 }
+
+/* line 14, ../sass/layout.sass */
+#content {
+  overflow: hidden;
+}
