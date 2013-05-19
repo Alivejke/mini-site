@@ -1,24 +1,96 @@
-/* line 1, ../sass/apartments_list.sass */
-.apartments {
-  float: left;
-  width: 295px;
-  margin-right: 20px;
+/* line 4, ../sass/apartments_list.sass */
+#apartments_list {
+  padding: 0 10px;
 }
 
-/* line 6, ../sass/apartments_list.sass */
-.apartments__list_item {
+/* line 7, ../sass/apartments_list.sass */
+.apartments_list__item {
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
-/* line 10, ../sass/apartments_list.sass */
-.apartments__list_item_photo {
-  padding: 2px;
-  border: 1px solid #d8d6d4;
+/* line 11, ../sass/apartments_list.sass */
+.apartments_list__photo {
+  overflow: hidden;
+  width: 281px;
+  height: 195px;
   float: left;
 }
+/* line 16, ../sass/apartments_list.sass */
+.apartments_list__photo img {
+  display: block;
+}
 
-/* line 15, ../sass/apartments_list.sass */
-.apartments__list_item_descr {
-  margin-left: 130px;
+/* line 19, ../sass/apartments_list.sass */
+.apartments_list__descr {
+  margin-left: 281px;
+  height: 195px;
+}
+
+/* line 23, ../sass/apartments_list.sass */
+.apartments_list__adress {
+  padding: 10px 20px 8px 20px;
+  background: #f7e0c8;
+  border-bottom: 1px solid #ebd0b4;
+}
+
+/* line 28, ../sass/apartments_list.sass */
+.apartments_list__street {
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 31, ../sass/apartments_list.sass */
+.apartments_list__street a {
+  color: #852432;
+  text-decoration: none;
+}
+/* line 34, ../sass/apartments_list.sass */
+.apartments_list__street a:hover {
+  color: #3c1017;
+}
+
+/* line 37, ../sass/apartments_list.sass */
+.apartments_list__district {
+  font-size: 10px;
+  color: #aaaaaa;
+  line-height: 20px;
+}
+
+/* line 42, ../sass/apartments_list.sass */
+.apartments_list__info {
+  height: 116px;
+  padding: 10px 20px;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ededed), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(top, #ededed, #dfdfdf);
+  background-image: -moz-linear-gradient(top, #ededed, #dfdfdf);
+  background-image: -o-linear-gradient(top, #ededed, #dfdfdf);
+  background-image: linear-gradient(top, #ededed, #dfdfdf);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEDEDED', endColorstr='#FFDFDFDF');
+}
+
+/* line 49, ../sass/apartments_list.sass */
+.apartments_list__cost {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #777777;
+}
+
+/* line 55, ../sass/apartments_list.sass */
+.apartments_list__rooms {
+  font-size: 12px;
+  line-height: 24px;
+  color: #777777;
+}
+
+/* line 60, ../sass/apartments_list.sass */
+.apartments_list__descr_text {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  overflow: hidden;
+  max-height: 65px;
 }

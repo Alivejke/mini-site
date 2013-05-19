@@ -1,0 +1,66 @@
+@import "compass"
+@import "base"
+
+#apartments_list
+	padding: 0 10px
+
+.apartments_list__item
+	overflow: hidden
+	margin-top: 20px
+
+.apartments_list__photo
+	overflow: hidden
+	width: 281px
+	height: 195px
+	float: left
+	img
+		display: block
+
+.apartments_list__descr
+	margin-left: 281px
+	height: 195px
+
+.apartments_list__adress
+	padding: 10px 20px 8px 20px
+	background: #f7e0c8
+	border-bottom: 1px solid #ebd0b4
+
+.apartments_list__street
+	font-size: 18px
+	line-height: 20px
+	a
+		color: $red
+		text-decoration: none
+		&:hover
+			color: #3c1017
+
+.apartments_list__district
+	font-size: 10px
+	color: #aaa
+	line-height: 20px
+
+.apartments_list__info
+	height: 116px
+	padding: 10px 20px
+	overflow: hidden
+	+background-image(linear-gradient(top, #ededed, #dfdfdf))
+	+filter-gradient(#ededed, #dfdfdf, vertical)
+
+.apartments_list__cost
+	font-size: 18px
+	line-height: 24px
+	font-weight: bold
+	color: #777
+
+.apartments_list__rooms
+	font-size: 12px
+	line-height: 24px
+	color: #777
+
+.apartments_list__descr_text
+	margin-top: 4px
+	font-size: 14px
+	line-height: 16px
+	color: #999
+	overflow: hidden
+	max-height: 65px

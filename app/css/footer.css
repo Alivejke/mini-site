@@ -1,0 +1,17 @@
+/* line 3, ../sass/footer.sass */
+#footer {
+  margin: -55px auto 0;
+  width: 940px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #efefef, #ffffff);
+  background-image: -moz-linear-gradient(top, #efefef, #ffffff);
+  background-image: -o-linear-gradient(top, #efefef, #ffffff);
+  background-image: linear-gradient(top, #efefef, #ffffff);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEFEFEF', endColorstr='#FFFFFFFF');
+  color: #aaaaaa;
+  padding: 10px 10px 20px 10px;
+  font-size: 11px;
+  border-top: 1px solid #cfcfcf;
+  line-height: 24px;
+}

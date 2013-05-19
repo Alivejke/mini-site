@@ -1,0 +1,19 @@
+/* line 3, ../sass/contacts.sass */
+.contacts {
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+/* line 7, ../sass/contacts.sass */
+.contacts_data__type_email {
+  color: #852432;
+}
+/* line 9, ../sass/contacts.sass */
+.contacts_data__type_email:hover {
+  text-decoration: none;
+}
+
+/* line 12, ../sass/contacts.sass */
+.contacts_list {
+  margin-bottom: 10px;
+}

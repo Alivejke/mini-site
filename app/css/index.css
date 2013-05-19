@@ -32,116 +32,116 @@
   margin: 0 0 8px;
   font-size: 14px;
   line-height: 16px;
-  color: #58524a;
   text-transform: uppercase;
   padding-bottom: 5px;
 }
 
 /* line 28, ../sass/global.sass */
-.apartments__list_item_title {
-  color: #852432;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-/* line 33, ../sass/global.sass */
-.apartments__list_item_adress {
-  color: #aaaaaa;
-  font-size: 10px;
-  line-height: 12px;
-  margin-bottom: 6px;
-}
-
-/* line 39, ../sass/global.sass */
-.apartments__list_item_cost {
-  font-weight: bold;
-  font-size: 12px;
-  color: #777777;
+.g-text_block_title {
+  font-size: 16px;
   line-height: 24px;
-}
-
-/* line 45, ../sass/global.sass */
-.apartments__list_item_cost__monthly {
-  font-weight: normal;
-}
-
-/* line 48, ../sass/global.sass */
-.apartments__list_item_rooms {
-  font-size: 12px;
-  line-height: 14px;
-  color: #777777;
+  color: dimgrey;
+  text-transform: capitalize;
+  margin: 0 0 5px;
 }
 
 /* line 1, ../sass/layout.sass */
+html {
+  height: 100%;
+}
+
+/* line 4, ../sass/layout.sass */
 body {
   background: white;
   font: 12px/14px Arial, Helvetica, sans-serif;
   color: #777777;
-}
-
-/* line 6, ../sass/layout.sass */
-#conteiner {
-  width: 960px;
-  margin: 0 auto;
+  height: 100%;
 }
 
 /* line 10, ../sass/layout.sass */
+#conteiner {
+  width: 960px;
+  margin: 0 auto;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 18, ../sass/layout.sass */
 #header {
   overflow: hidden;
   padding-top: 15px;
 }
 
-/* line 14, ../sass/layout.sass */
+/* line 22, ../sass/layout.sass */
 #content {
   overflow: hidden;
+  padding-bottom: 85px;
 }
 
 /* line 42, sprites/*.png */
 .sprites-sprite, .logo__img {
-  background: url('D:/Github/mini-site/app/img/sprites-s3f31e51849.png') no-repeat;
+  background: url('/img/sprites-s3f31e51849.png') no-repeat;
 }
 
 /* line 4, ../sass/logo.sass */
 #logo {
   float: left;
-  text-decoration: none;
-  text-align: right;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  font-size: 12px;
+  height: 50px;
+  overflow: hidden;
 }
 
-/* line 10, ../sass/logo.sass */
+/* line 11, ../sass/logo.sass */
+.logo__link {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+}
+
+/* line 17, ../sass/logo.sass */
 .logo__img {
   display: inline-block;
   height: 50px;
   width: 50px;
   margin-right: 10px;
   background-position: 0 0;
+  vertical-align: top;
 }
 
-/* line 17, ../sass/logo.sass */
+/* line 25, ../sass/logo.sass */
 .logo__text {
   font-weight: normal;
   display: inline-block;
 }
 
-/* line 21, ../sass/logo.sass */
+/* line 29, ../sass/logo.sass */
 .logo__tag {
-  font-size: 36px;
-  line-height: 38px;
+  font-size: 40px;
+  line-height: 42px;
   color: #4c483f;
-  text-transform: uppercase;
-  padding-top: 3px;
+  position: relative;
+  top: -8px;
+  *top: -4px;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
-/* line 27, ../sass/logo.sass */
+/* line 39, ../sass/logo.sass */
 .logo__tag b {
   font-weight: bold;
 }
 
-/* line 30, ../sass/logo.sass */
+/* line 42, ../sass/logo.sass */
 .logo__subtag {
-  font: 13px/15px Calibri, Arial, Helvetica, sans-serif;
+  font: 16px/18px Calibri, Arial, Helvetica, sans-serif;
   color: #852432;
   margin: 0 5px 0 0;
+  position: relative;
+  top: -18px;
+  *top: -14px;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
 
 /* line 3, ../sass/menu_main.sass */
@@ -284,31 +284,437 @@ body {
   color: #777777;
 }
 
-/* line 1, ../sass/apartments.sass */
-.apartments {
+/* line 4, ../sass/apartments_short.sass */
+.apartments_short {
   float: left;
   width: 295px;
   margin-right: 20px;
 }
 
-/* line 6, ../sass/apartments.sass */
-.apartments__list_item {
+/* line 9, ../sass/apartments_short.sass */
+.apartments_short__list_item {
   overflow: hidden;
   margin-bottom: 10px;
 }
 
-/* line 10, ../sass/apartments.sass */
-.apartments__list_item_photo {
+/* line 13, ../sass/apartments_short.sass */
+.apartments_short__list_item_photo {
   padding: 2px;
   border: 1px solid #d8d6d4;
   float: left;
 }
-/* line 14, ../sass/apartments.sass */
-.apartments__list_item_photo img {
+/* line 17, ../sass/apartments_short.sass */
+.apartments_short__list_item_photo img {
   display: block;
 }
 
-/* line 17, ../sass/apartments.sass */
-.apartments__list_item_descr {
+/* line 20, ../sass/apartments_short.sass */
+.apartments_short__list_item_descr {
   margin-left: 130px;
+}
+
+/* line 23, ../sass/apartments_short.sass */
+.apartments_short__list_item_title {
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 26, ../sass/apartments_short.sass */
+.apartments_short__list_item_title a {
+  color: #852432;
+  text-decoration: none;
+}
+/* line 29, ../sass/apartments_short.sass */
+.apartments_short__list_item_title a:hover {
+  color: #3c1017;
+}
+
+/* line 32, ../sass/apartments_short.sass */
+.apartments_short__list_item_adress {
+  color: #aaaaaa;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 6px;
+}
+
+/* line 38, ../sass/apartments_short.sass */
+.apartments_short__list_item_cost {
+  font-weight: bold;
+  font-size: 12px;
+  color: #777777;
+  line-height: 24px;
+}
+
+/* line 44, ../sass/apartments_short.sass */
+.apartments_short__list_item_cost__monthly {
+  font-weight: normal;
+}
+
+/* line 47, ../sass/apartments_short.sass */
+.apartments_short__list_item_rooms {
+  font-size: 12px;
+  line-height: 14px;
+  color: #777777;
+}
+
+/* line 5, ../sass/apartment_featured.sass */
+.apartment_featured {
+  width: 330px;
+  float: right;
+}
+
+/* line 9, ../sass/apartment_featured.sass */
+.apartment_featured__photo {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+/* line 13, ../sass/apartment_featured.sass */
+.apartment_featured__photo a {
+  display: block;
+}
+/* line 15, ../sass/apartment_featured.sass */
+.apartment_featured__photo img {
+  display: block;
+}
+
+/* line 18, ../sass/apartment_featured.sass */
+.apartment_featured__adress {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  padding: 10px 20px 8px 20px;
+  background: #f7e0c8;
+  border-bottom: 1px solid #ebd0b4;
+}
+
+/* line 25, ../sass/apartment_featured.sass */
+.apartment_featured__street {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 29, ../sass/apartment_featured.sass */
+.apartment_featured__street a {
+  color: #852432;
+  text-decoration: none;
+}
+/* line 32, ../sass/apartment_featured.sass */
+.apartment_featured__street a:hover {
+  color: #3c1017;
+}
+
+/* line 35, ../sass/apartment_featured.sass */
+.apartment_featured__district {
+  font-size: 10px;
+  color: #aaaaaa;
+  line-height: 18px;
+}
+
+/* line 40, ../sass/apartment_featured.sass */
+.apartment_featured__descr {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 20px;
+}
+
+/* line 46, ../sass/apartment_featured.sass */
+.apartment_featured__cost {
+  font-weight: bold;
+  color: #777777;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* line 52, ../sass/apartment_featured.sass */
+.apartment_featured__rooms {
+  color: #777777;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* line 3, ../sass/footer.sass */
+#footer {
+  margin: -55px auto 0;
+  width: 940px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(top, #efefef, #ffffff);
+  background-image: -moz-linear-gradient(top, #efefef, #ffffff);
+  background-image: -o-linear-gradient(top, #efefef, #ffffff);
+  background-image: linear-gradient(top, #efefef, #ffffff);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEFEFEF', endColorstr='#FFFFFFFF');
+  color: #aaaaaa;
+  padding: 10px 10px 20px 10px;
+  font-size: 11px;
+  border-top: 1px solid #cfcfcf;
+  line-height: 24px;
+}
+
+/* line 4, ../sass/apartments_list.sass */
+#apartments_list {
+  padding: 0 10px;
+}
+
+/* line 7, ../sass/apartments_list.sass */
+.apartments_list__item {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* line 11, ../sass/apartments_list.sass */
+.apartments_list__photo {
+  overflow: hidden;
+  width: 281px;
+  height: 195px;
+  float: left;
+}
+/* line 16, ../sass/apartments_list.sass */
+.apartments_list__photo img {
+  display: block;
+}
+
+/* line 19, ../sass/apartments_list.sass */
+.apartments_list__descr {
+  margin-left: 281px;
+  height: 195px;
+}
+
+/* line 23, ../sass/apartments_list.sass */
+.apartments_list__adress {
+  padding: 10px 20px 8px 20px;
+  background: #f7e0c8;
+  border-bottom: 1px solid #ebd0b4;
+}
+
+/* line 28, ../sass/apartments_list.sass */
+.apartments_list__street {
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 31, ../sass/apartments_list.sass */
+.apartments_list__street a {
+  color: #852432;
+  text-decoration: none;
+}
+/* line 34, ../sass/apartments_list.sass */
+.apartments_list__street a:hover {
+  color: #3c1017;
+}
+
+/* line 37, ../sass/apartments_list.sass */
+.apartments_list__district {
+  font-size: 10px;
+  color: #aaaaaa;
+  line-height: 20px;
+}
+
+/* line 42, ../sass/apartments_list.sass */
+.apartments_list__info {
+  height: 116px;
+  padding: 10px 20px;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ededed), color-stop(100%, #dfdfdf));
+  background-image: -webkit-linear-gradient(top, #ededed, #dfdfdf);
+  background-image: -moz-linear-gradient(top, #ededed, #dfdfdf);
+  background-image: -o-linear-gradient(top, #ededed, #dfdfdf);
+  background-image: linear-gradient(top, #ededed, #dfdfdf);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEDEDED', endColorstr='#FFDFDFDF');
+}
+
+/* line 49, ../sass/apartments_list.sass */
+.apartments_list__cost {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #777777;
+}
+
+/* line 55, ../sass/apartments_list.sass */
+.apartments_list__rooms {
+  font-size: 12px;
+  line-height: 24px;
+  color: #777777;
+}
+
+/* line 60, ../sass/apartments_list.sass */
+.apartments_list__descr_text {
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+  overflow: hidden;
+  max-height: 65px;
+}
+
+/* line 3, ../sass/contacts.sass */
+.contacts {
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+/* line 7, ../sass/contacts.sass */
+.contacts_data__type_email {
+  color: #852432;
+}
+/* line 9, ../sass/contacts.sass */
+.contacts_data__type_email:hover {
+  text-decoration: none;
+}
+
+/* line 12, ../sass/contacts.sass */
+.contacts_list {
+  margin-bottom: 10px;
+}
+
+/* line 1, ../sass/apartment_photos.sass */
+#apartment_photos {
+  width: 288px;
+  padding: 20px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #cccccc;
+  background: #ededed;
+  float: left;
+  margin-top: 1px;
+}
+
+/* line 10, ../sass/apartment_photos.sass */
+.apartment_photos__list {
+  overflow: hidden;
+  margin-right: -20px;
+}
+
+/* line 14, ../sass/apartment_photos.sass */
+.apartment_photos__item {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 133px;
+  height: 73px;
+}
+/* line 19, ../sass/apartment_photos.sass */
+.apartment_photos__item:first-child {
+  width: 288px;
+  height: 159px;
+}
+
+/* line 23, ../sass/apartment_photos.sass */
+.apartment_photos__link {
+  display: block;
+}
+
+/* line 26, ../sass/apartment_photos.sass */
+.apartment_photos__photo {
+  display: block;
+}
+
+/* line 29, ../sass/apartment_photos.sass */
+#apartment__gmap {
+  width: 600px;
+  height: 300px;
+  *float: left;
+}
+
+/* line 3, ../sass/apartment.sass */
+#apartment {
+  display: block;
+  margin-left: 330px;
+  padding: 20px;
+}
+/* line 7, ../sass/apartment.sass */
+#apartment .g-text_block_title {
+  margin-top: 5px;
+}
+
+/* line 10, ../sass/apartment.sass */
+.apartment_main_info {
+  position: relative;
+}
+
+/* line 13, ../sass/apartment.sass */
+.apartment_main_info__street {
+  color: #852432;
+  margin: 0;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+/* line 19, ../sass/apartment.sass */
+.apartment_main_info__district {
+  color: #999999;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* line 24, ../sass/apartment.sass */
+.apartment_main_info__cost {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 26px;
+  line-height: 28px;
+  color: #999999;
+  font-weight: bold;
+}
+/* line 32, ../sass/apartment.sass */
+.apartment_main_info__cost span {
+  font-size: 12px;
+  font-weight: normal;
+  list-style: 14px;
+}
+
+/* line 37, ../sass/apartment.sass */
+.apartment__text {
+  color: #999999;
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: -5px;
+}
+
+/* line 43, ../sass/apartment.sass */
+.apartment__services_name {
+  font-size: 16px;
+  line-height: 24px;
+  color: dimgrey;
+  text-transform: capitalize;
+}
+
+/* line 49, ../sass/apartment.sass */
+.apartment__services_data {
+  margin-left: 6px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 1, ../sass/popup.sass */
+#popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+/* line 11, ../sass/popup.sass */
+#popup_fone {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/img/popup_fone.png) repeat;
+}
+
+/* line 20, ../sass/popup.sass */
+.photo_slider {
+  width: 900px;
+  height: 620px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -310px 0 0 -450px;
 }

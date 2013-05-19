@@ -1,0 +1,67 @@
+/* line 5, ../sass/appartment_featured.sass */
+.appartment_featured {
+  width: 330px;
+  float: right;
+}
+
+/* line 9, ../sass/appartment_featured.sass */
+.appartment_featured__photo {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+/* line 13, ../sass/appartment_featured.sass */
+.appartment_featured__photo a {
+  display: block;
+}
+/* line 15, ../sass/appartment_featured.sass */
+.appartment_featured__photo img {
+  display: block;
+}
+
+/* line 18, ../sass/appartment_featured.sass */
+.appartment_featured__adress {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  padding: 10px 20px 8px 20px;
+  background: #f7e0c8;
+  border-bottom: 1px solid #ebd0b4;
+}
+
+/* line 25, ../sass/appartment_featured.sass */
+.appartment_featured__street {
+  text-decoration: none;
+  color: #852432;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 31, ../sass/appartment_featured.sass */
+.appartment_featured__district {
+  font-size: 10px;
+  color: #aaaaaa;
+  line-height: 18px;
+}
+
+/* line 36, ../sass/appartment_featured.sass */
+.appartment_featured__descr {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 20px;
+}
+
+/* line 42, ../sass/appartment_featured.sass */
+.appartment_featured__cost {
+  font-weight: bold;
+  color: #777777;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* line 48, ../sass/appartment_featured.sass */
+.appartment_featured__rooms {
+  color: #777777;
+  font-size: 12px;
+  line-height: 20px;
+}

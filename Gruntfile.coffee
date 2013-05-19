@@ -2,6 +2,7 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks 'grunt-contrib-watch'
 	grunt.loadNpmTasks 'grunt-contrib-coffee'
 	grunt.loadNpmTasks 'grunt-contrib-compass'
+	grunt.loadNpmTasks 'grunt-contrib-connect'
 
 	grunt.initConfig
 		watch:
@@ -30,11 +31,18 @@ module.exports = (grunt) ->
 		compass:
 			dev:
 				options:
-					sassDir: 'app/sass'
-					cssDir: 'app/css'
-					imagesDir: 'app/img'
-					httpPath: 'D:/Github/mini-site'
+					basePath: 'app/'
+					sassDir: 'sass'
+					cssDir: 'css'
+					imagesDir: 'img'
+					httpPath: '/'
+
+		connect:
+			server:
+				options:
+					port: 9001
+					base: 'app'
 
 
 	grunt.registerTask 'default', ['debug']
-	grunt.registerTask 'debug', ['watch']
+	grunt.registerTask 'debug', ['connect', 'watch']

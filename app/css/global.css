@@ -32,42 +32,15 @@
   margin: 0 0 8px;
   font-size: 14px;
   line-height: 16px;
-  color: #58524a;
   text-transform: uppercase;
   padding-bottom: 5px;
 }
 
 /* line 28, ../sass/global.sass */
-.apartments__list_item_title {
-  color: #852432;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-/* line 33, ../sass/global.sass */
-.apartments__list_item_adress {
-  color: #aaaaaa;
-  font-size: 10px;
-  line-height: 12px;
-  margin-bottom: 6px;
-}
-
-/* line 39, ../sass/global.sass */
-.apartments__list_item_cost {
-  font-weight: bold;
-  font-size: 12px;
-  color: #777777;
+.g-text_block_title {
+  font-size: 16px;
   line-height: 24px;
-}
-
-/* line 45, ../sass/global.sass */
-.apartments__list_item_cost__monthly {
-  font-weight: normal;
-}
-
-/* line 48, ../sass/global.sass */
-.apartments__list_item_rooms {
-  font-size: 12px;
-  line-height: 14px;
-  color: #777777;
+  color: dimgrey;
+  text-transform: capitalize;
+  margin: 0 0 5px;
 }

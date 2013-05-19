@@ -3,9 +3,16 @@
 
 #logo
 	float: left
+	margin: 0 0 20px
+	font-size: 12px
+	height: 50px
+	overflow: hidden
+
+.logo__link
+	display: block
 	text-decoration: none
 	text-align: right
-	margin-bottom: 20px
+
 
 .logo__img
 	display: inline-block
@@ -13,21 +20,31 @@
 	width: 50px
 	margin-right: 10px
 	@include sprites-sprite(logo)
+	vertical-align: top
 
 .logo__text
 	font-weight: normal
 	display: inline-block
 
 .logo__tag
-	font-size: 36px
-	line-height: 38px
+	font-size: 40px
+	line-height: 42px
 	color: #4c483f
-	text-transform: uppercase
-	padding-top: 3px
+	position: relative
+	top: -8px
+	*top: -4px
+	font-variant: small-caps
+	text-transform: lowercase
+	// letter-spacing: -1px
 	b
 		font-weight: bold
 
 .logo__subtag
-	font: 13px/15px Calibri, Arial, Helvetica, sans-serif
+	font: 16px/18px Calibri, Arial, Helvetica, sans-serif
 	color: $red
 	margin: 0 5px 0 0
+	position: relative
+	top: -18px
+	*top: -14px
+	font-variant: small-caps
+	text-transform: lowercase

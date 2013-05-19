@@ -1,47 +1,64 @@
 /* line 42, sprites/*.png */
 .sprites-sprite, .logo__img {
-  background: url('D:/Github/mini-site/app/img/sprites-s3f31e51849.png') no-repeat;
+  background: url('/img/sprites-s3f31e51849.png') no-repeat;
 }
 
 /* line 4, ../sass/logo.sass */
 #logo {
   float: left;
-  text-decoration: none;
-  text-align: right;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
+  font-size: 12px;
+  height: 50px;
+  overflow: hidden;
 }
 
-/* line 10, ../sass/logo.sass */
+/* line 11, ../sass/logo.sass */
+.logo__link {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+}
+
+/* line 17, ../sass/logo.sass */
 .logo__img {
   display: inline-block;
   height: 50px;
   width: 50px;
   margin-right: 10px;
   background-position: 0 0;
+  vertical-align: top;
 }
 
-/* line 17, ../sass/logo.sass */
+/* line 25, ../sass/logo.sass */
 .logo__text {
   font-weight: normal;
   display: inline-block;
 }
 
-/* line 21, ../sass/logo.sass */
+/* line 29, ../sass/logo.sass */
 .logo__tag {
-  font-size: 36px;
-  line-height: 38px;
+  font-size: 40px;
+  line-height: 42px;
   color: #4c483f;
-  text-transform: uppercase;
-  padding-top: 3px;
+  position: relative;
+  top: -8px;
+  *top: -4px;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
-/* line 27, ../sass/logo.sass */
+/* line 39, ../sass/logo.sass */
 .logo__tag b {
   font-weight: bold;
 }
 
-/* line 30, ../sass/logo.sass */
+/* line 42, ../sass/logo.sass */
 .logo__subtag {
-  font: 13px/15px Calibri, Arial, Helvetica, sans-serif;
+  font: 16px/18px Calibri, Arial, Helvetica, sans-serif;
   color: #852432;
   margin: 0 5px 0 0;
+  position: relative;
+  top: -18px;
+  *top: -14px;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }

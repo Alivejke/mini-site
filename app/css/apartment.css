@@ -1,0 +1,74 @@
+/* line 3, ../sass/apartment.sass */
+#apartment {
+  display: block;
+  margin-left: 330px;
+  padding: 20px;
+}
+/* line 7, ../sass/apartment.sass */
+#apartment .g-text_block_title {
+  margin-top: 5px;
+}
+
+/* line 10, ../sass/apartment.sass */
+.apartment_main_info {
+  position: relative;
+}
+
+/* line 13, ../sass/apartment.sass */
+.apartment_main_info__street {
+  color: #852432;
+  margin: 0;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+/* line 19, ../sass/apartment.sass */
+.apartment_main_info__district {
+  color: #999999;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+/* line 24, ../sass/apartment.sass */
+.apartment_main_info__cost {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 26px;
+  line-height: 28px;
+  color: #999999;
+  font-weight: bold;
+}
+/* line 32, ../sass/apartment.sass */
+.apartment_main_info__cost span {
+  font-size: 12px;
+  font-weight: normal;
+  list-style: 14px;
+}
+
+/* line 37, ../sass/apartment.sass */
+.apartment__text {
+  color: #999999;
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: -5px;
+}
+
+/* line 43, ../sass/apartment.sass */
+.apartment__services_name {
+  font-size: 16px;
+  line-height: 24px;
+  color: dimgrey;
+  text-transform: capitalize;
+}
+
+/* line 49, ../sass/apartment.sass */
+.apartment__services_data {
+  margin-left: 6px;
+  color: #999999;
+  font-size: 12px;
+  line-height: 18px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
